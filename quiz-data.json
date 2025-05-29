@@ -1,12 +1,19 @@
-[
-  {
-    "question": "What color is the sky on a clear day?",
-    "options": ["Green", "Blue", "Red", "Yellow"],
-    "answer": "Blue"
-  },
-  {
-    "question": "How many legs does a spider have?",
-    "options": ["6", "8", "4", "10"],
-    "answer": "8"
-  }
-]
+{
+    "questions": [
+        {
+            "question": "What's 2 + 2?",
+            "options": ["3", "4", "5", "6"],
+            "correct": 1
+        },
+        {
+            "question": "Which animal says 'Moo'?",
+            "options": ["Dog", "Cat", "Cow", "Duck"],
+            "correct": 2
+        },
+        {
+            "question": "What color is a banana?",
+            "options": ["Red", "Yellow", "Blue", "Green"],
+            "correct": 1
+        }
+    ]
+}
