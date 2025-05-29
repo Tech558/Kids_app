@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kid's Quiz Game</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Kids Quiz!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Baloo+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>🧠 Fun Quiz for Kids 🎉</h1>
-    <div id="quiz-container"></div>
-  </div>
-  <script src="script.js"></script>
+    <div class="quiz-container">
+        <div class="progress-bar">
+            <div class="progress" style="width: 0%"></div>
+        </div>
+        <div class="question-container">
+            <div class="question"></div>
+            <div class="options"></div>
+            <button onclick="submitAnswer()">Submit Answer!</button>
+            <div class="feedback"></div>
+        </div>
+        <div class="results"></div>
+    </div>
+
+    <script src="quiz-data.json"></script>
+    <script src="script.js"></script>
 </body>
 </html>
