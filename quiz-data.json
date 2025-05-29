@@ -1,129 +1,129 @@
 {
   "questions": [
     {
-      "question": "What's 3 + 5?",
-      "options": ["6", "7", "8", "9"],
-      "correct": 2
-    },
-    {
-      "question": "Which animal has a trunk?",
-      "options": ["Giraffe", "Elephant", "Lion", "Zebra"],
+      "question": "Who is known as the 'Father of the Nation' in India?",
+      "options": ["Subhash Chandra Bose", "Mahatma Gandhi", "Jawaharlal Nehru", "Dr. Ambedkar"],
       "correct": 1
     },
     {
-      "question": "What color is the sun?",
-      "options": ["Blue", "Green", "Yellow", "Purple"],
+      "question": "What is the capital of India?",
+      "options": ["Mumbai", "Chennai", "New Delhi", "Kolkata"],
       "correct": 2
     },
     {
-      "question": "How many legs does a spider have?",
-      "options": ["6", "8", "10", "12"],
+      "question": "Which gas do plants absorb from the air?",
+      "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
       "correct": 1
     },
     {
-      "question": "What planet do we live on?",
-      "options": ["Mars", "Venus", "Earth", "Jupiter"],
-      "correct": 2
-    },
-    {
-      "question": "What is the capital of France?",
-      "options": ["London", "Berlin", "Paris", "Rome"],
-      "correct": 2
-    },
-    {
-      "question": "What do bees make?",
-      "options": ["Milk", "Silk", "Honey", "Bread"],
-      "correct": 2
-    },
-    {
-      "question": "Which shape has three sides?",
-      "options": ["Square", "Circle", "Triangle", "Rectangle"],
-      "correct": 2
-    },
-    {
-      "question": "What color are bananas?",
-      "options": ["Red", "Blue", "Yellow", "Green"],
-      "correct": 2
-    },
-    {
-      "question": "Which of these is a fruit?",
-      "options": ["Carrot", "Banana", "Potato", "Celery"],
+      "question": "What is the square of 9?",
+      "options": ["18", "81", "27", "72"],
       "correct": 1
     },
     {
-      "question": "How many days are in a week?",
-      "options": ["5", "6", "7", "8"],
-      "correct": 2
-    },
-    {
-      "question": "Which animal says 'meow'?",
-      "options": ["Dog", "Cat", "Cow", "Horse"],
-      "correct": 1
-    },
-    {
-      "question": "What is water made of?",
-      "options": ["H2O", "CO2", "NaCl", "O2"],
+      "question": "How many states are there in India?",
+      "options": ["28", "27", "29", "30"],
       "correct": 0
     },
     {
-      "question": "Which of these can fly?",
-      "options": ["Fish", "Bird", "Elephant", "Cat"],
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Earth", "Mars", "Jupiter", "Venus"],
       "correct": 1
     },
     {
-      "question": "What do you use to write?",
-      "options": ["Spoon", "Pencil", "Fork", "Eraser"],
-      "correct": 1
-    },
-    {
-      "question": "Which one is a color?",
-      "options": ["Dog", "Blue", "Apple", "Chair"],
-      "correct": 1
-    },
-    {
-      "question": "How many wheels does a bicycle have?",
-      "options": ["1", "2", "3", "4"],
-      "correct": 1
-    },
-    {
-      "question": "What time of day do you sleep?",
-      "options": ["Morning", "Afternoon", "Night", "Noon"],
+      "question": "What do we call a baby dog?",
+      "options": ["Kitten", "Cub", "Puppy", "Calf"],
       "correct": 2
     },
     {
-      "question": "What is 10 - 4?",
-      "options": ["5", "6", "7", "4"],
-      "correct": 1
+      "question": "Which number comes after 999?",
+      "options": ["1000", "9999", "998", "100"],
+      "correct": 0
     },
     {
-      "question": "What do cows drink?",
-      "options": ["Juice", "Milk", "Water", "Soda"],
+      "question": "Who invented the light bulb?",
+      "options": ["Albert Einstein", "Isaac Newton", "Thomas Edison", "Alexander Bell"],
       "correct": 2
     },
     {
-      "question": "What color is the sky on a clear day?",
-      "options": ["Green", "Blue", "Pink", "Orange"],
+      "question": "Which part of the body helps you to see?",
+      "options": ["Nose", "Eyes", "Ears", "Hands"],
       "correct": 1
     },
     {
-      "question": "Which one is a vegetable?",
-      "options": ["Apple", "Tomato", "Carrot", "Banana"],
+      "question": "Which festival is known as the Festival of Lights?",
+      "options": ["Holi", "Christmas", "Diwali", "Eid"],
       "correct": 2
     },
     {
-      "question": "Which month comes after June?",
-      "options": ["May", "August", "July", "September"],
-      "correct": 2
-    },
-    {
-      "question": "What is the opposite of hot?",
-      "options": ["Warm", "Cold", "Boiling", "Heat"],
+      "question": "Which is the largest mammal?",
+      "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
       "correct": 1
     },
     {
-      "question": "Which season is the coldest?",
-      "options": ["Spring", "Summer", "Autumn", "Winter"],
+      "question": "How many hours are there in a day?",
+      "options": ["12", "24", "36", "48"],
+      "correct": 1
+    },
+    {
+      "question": "What is the opposite of 'Tall'?",
+      "options": ["Long", "Short", "Big", "Thin"],
+      "correct": 1
+    },
+    {
+      "question": "Which shape has no corners?",
+      "options": ["Square", "Circle", "Rectangle", "Triangle"],
+      "correct": 1
+    },
+    {
+      "question": "In which direction does the sun rise?",
+      "options": ["North", "South", "East", "West"],
+      "correct": 2
+    },
+    {
+      "question": "What do you call the person who teaches in school?",
+      "options": ["Doctor", "Engineer", "Teacher", "Driver"],
+      "correct": 2
+    },
+    {
+      "question": "How many alphabets are there in English?",
+      "options": ["24", "25", "26", "27"],
+      "correct": 2
+    },
+    {
+      "question": "Which country is known as the Land of the Rising Sun?",
+      "options": ["India", "Japan", "China", "Thailand"],
+      "correct": 1
+    },
+    {
+      "question": "Which of these is a primary color?",
+      "options": ["Green", "Purple", "Orange", "Red"],
       "correct": 3
+    },
+    {
+      "question": "What do you call a house made of ice?",
+      "options": ["Cave", "Tent", "Igloo", "Hut"],
+      "correct": 2
+    },
+    {
+      "question": "Which month has 28 or 29 days?",
+      "options": ["January", "February", "March", "April"],
+      "correct": 1
+    },
+    {
+      "question": "How many sides does a hexagon have?",
+      "options": ["5", "6", "7", "8"],
+      "correct": 1
+    },
+    {
+      "question": "Which bird is known for mimicking sounds?",
+      "options": ["Crow", "Pigeon", "Parrot", "Sparrow"],
+      "correct": 2
+    },
+    {
+      "question": "What do you use to measure time?",
+      "options": ["Thermometer", "Clock", "Scale", "Mirror"],
+      "correct": 1
     }
   ]
 }
