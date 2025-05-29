@@ -1,61 +1,87 @@
-let currentQuestion = 0;
-let quizData = [];
+class Quiz {
+    constructor(quizData) {
+        this.quizData = quizData;
+        this.currentQuestion = 0;
+        this.score = 0;
+        this.totalQuestions = quizData.questions.length;
+    }
 
-fetch('quiz-data.json')
-  .then(response => response.json())
-  .then(data => {
-    quizData = data;
-    loadQuestion();
-  });
+    showQuestion() {
+        const question = this.quizData.questions[this.currentQuestion];
+        document.querySelector('.question').textContent = question.question;
+        const optionsHtml = question.options.map((opt, index) => `
+            <div class="option">
+                <label>
+                    <input type="radio" name="answer" value="${index}">
+                    ${opt}
+                </label>
+            </div>
+        `).join('');
+        document.querySelector('.options').innerHTML = optionsHtml;
+        this.updateProgress();
+    }
 
-function loadQuestion() {
-  const container = document.getElementById('quiz-container');
-  container.innerHTML = ''; // Clear previous question
+    updateProgress() {
+        const progress = (this.currentQuestion / this.totalQuestions) * 100;
+        document.querySelector('.progress').style.width = `${progress}%`;
+    }
 
-  if (currentQuestion >= quizData.length) {
-    container.innerHTML = `<h2>🎉 You finished the quiz! 🎉</h2>`;
-    return;
-  }
+    showFeedback(isCorrect) {
+        const feedback = document.querySelector('.feedback');
+        feedback.textContent = isCorrect ? "Correct! 🎉" : "Try Again! 💪";
+        feedback.className = `feedback ${isCorrect ? 'correct' : 'incorrect'}`;
+        feedback.style.display = 'block';
+    }
 
-  const qData = quizData[currentQuestion];
-
-  const questionDiv = document.createElement('div');
-  questionDiv.className = 'question-block';
-
-  questionDiv.innerHTML = `
-    <div class="question"><strong>Q${currentQuestion + 1}:</strong> ${qData.question}</div>
-    <div class="options">
-      ${qData.options.map((opt, i) => `
-        <label>
-          <input type="radio" name="option" value="${opt}">
-          ${opt}
-        </label>
-      `).join('')}
-    </div>
-    <button onclick="submitAnswer()">Submit</button>
-  `;
-
-  container.appendChild(questionDiv);
+    showResults() {
+        document.querySelector('.question-container').style.display = 'none';
+        const results = document.querySelector('.results');
+        const percentage = Math.round((this.score / this.totalQuestions) * 100);
+        results.innerHTML = `
+            <h2>Quiz Complete! 🎉</h2>
+            <p>Total Questions: ${this.totalQuestions}</p>
+            <p>Correct Answers: ${this.score}</p>
+            <p>Your Score: ${percentage}%</p>
+            <p>${percentage >= 80 ? 'Awesome Job! 🌟' : 'Keep Practicing! 👍'}</p>
+        `;
+        results.style.display = 'block';
+    }
 }
+
+let quiz;
+
+// Wait for the quiz data to load
+document.addEventListener('DOMContentLoaded', () => {
+    fetch('quiz-data.json')
+        .then(response => response.json())
+        .then(data => {
+            quiz = new Quiz(data);
+            quiz.showQuestion();
+        })
+        .catch(error => console.error('Error loading quiz data:', error));
+});
 
 function submitAnswer() {
-  const selected = document.querySelector('input[name="option"]:checked');
-  if (!selected) {
-    alert('Please choose an option!');
-    return;
-  }
+    if (!quiz) return;
+    
+    const selected = document.querySelector('input[name="answer"]:checked');
+    if (!selected) {
+        alert('Please choose an answer!');
+        return;
+    }
 
-  // Optionally check correctness here if needed
-  currentQuestion++;
-  loadQuestion();
-  startReminder();
-}
+    const answer = parseInt(selected.value);
+    const isCorrect = answer === quiz.quizData.questions[quiz.currentQuestion].correct;
+    
+    quiz.showFeedback(isCorrect);
+    if (isCorrect) quiz.score++;
 
-// Reminder system: prompts user every 10 seconds if no action
-let reminderTimeout;
-function startReminder() {
-  clearTimeout(reminderTimeout);
-  reminderTimeout = setTimeout(() => {
-    alert('⏰ Time for the next question!');
-  }, 10000);
+    setTimeout(() => {
+        quiz.currentQuestion++;
+        if (quiz.currentQuestion < quiz.totalQuestions) {
+            quiz.showQuestion();
+        } else {
+            quiz.showResults();
+        }
+    }, 1500);
 }
