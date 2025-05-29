@@ -1,18 +1,103 @@
 {
     "questions": [
         {
-            "question": "What's 2 + 2?",
-            "options": ["3", "4", "5", "6"],
-            "correct": 1
-        },
-        {
-            "question": "Which animal says 'Moo'?",
-            "options": ["Dog", "Cat", "Cow", "Duck"],
+            "question": "What's 3 + 5?",
+            "options": ["6", "7", "8", "9"],
             "correct": 2
         },
         {
-            "question": "What color is a banana?",
-            "options": ["Red", "Yellow", "Blue", "Green"],
+            "question": "Which animal has a trunk?",
+            "options": ["Giraffe", "Elephant", "Lion", "Zebra"],
+            "correct": 1
+        },
+        {
+            "question": "What color is the sun?",
+            "options": ["Blue", "Green", "Yellow", "Purple"],
+            "correct": 2
+        },
+        {
+            "question": "How many legs does a spider have?",
+            "options": ["4", "6", "8", "10"],
+            "correct": 2
+        },
+        {
+            "question": "Which of these is a fruit?",
+            "options": ["Carrot", "Broccoli", "Apple", "Potato"],
+            "correct": 2
+        },
+        {
+            "question": "What do you use to write on paper?",
+            "options": ["Spoon", "Pencil", "Fork", "Hammer"],
+            "correct": 1
+        },
+        {
+            "question": "Which month comes after April?",
+            "options": ["March", "May", "June", "February"],
+            "correct": 1
+        },
+        {
+            "question": "What sound does a dog make?",
+            "options": ["Meow", "Moo", "Woof", "Oink"],
+            "correct": 2
+        },
+        {
+            "question": "How many sides does a triangle have?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 1
+        },
+        {
+            "question": "Which of these lives in the ocean?",
+            "options": ["Lion", "Dolphin", "Elephant", "Giraffe"],
+            "correct": 1
+        },
+        {
+            "question": "What is the color of grass?",
+            "options": ["Red", "Blue", "Green", "Yellow"],
+            "correct": 2
+        },
+        {
+            "question": "Which is the largest animal?",
+            "options": ["Elephant", "Blue Whale", "Giraffe", "Hippo"],
+            "correct": 1
+        },
+        {
+            "question": "What is 10 - 4?",
+            "options": ["5", "6", "7", "8"],
+            "correct": 1
+        },
+        {
+            "question": "Which of these is a vegetable?",
+            "options": ["Banana", "Orange", "Carrot", "Grape"],
+            "correct": 2
+        },
+        {
+            "question": "What do caterpillars turn into?",
+            "options": ["Frogs", "Butterflies", "Fish", "Birds"],
+            "correct": 1
+        },
+        {
+            "question": "Which shape is round like a ball?",
+            "options": ["Square", "Triangle", "Circle", "Rectangle"],
+            "correct": 2
+        },
+        {
+            "question": "What do you wear on your feet?",
+            "options": ["Hat", "Gloves", "Shoes", "Scarf"],
+            "correct": 2
+        },
+        {
+            "question": "How many colors are in a rainbow?",
+            "options": ["5", "6", "7", "8"],
+            "correct": 2
+        },
+        {
+            "question": "Which of these is cold and sweet?",
+            "options": ["Pizza", "Ice Cream", "Soup", "Sandwich"],
+            "correct": 1
+        },
+        {
+            "question": "What do bees make?",
+            "options": ["Cheese", "Honey", "Bread", "Juice"],
             "correct": 1
         }
     ]
