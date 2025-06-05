@@ -1,129 +1,129 @@
 {
   "questions": [
     {
-      "question": "Who is known as the 'Father of the Nation' in India?",
-      "options": ["Subhash Chandra Bose", "Mahatma Gandhi", "Jawaharlal Nehru", "Dr. Ambedkar"],
+      "question": "What do bees collect from flowers?",
+      "options": ["Water", "Nectar", "Seeds", "Leaves"],
       "correct": 1
     },
     {
-      "question": "What is the capital of India?",
-      "options": ["Mumbai", "Chennai", "New Delhi", "Kolkata"],
-      "correct": 2
-    },
-    {
-      "question": "Which gas do plants absorb from the air?",
-      "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
-      "correct": 1
-    },
-    {
-      "question": "What is the square of 9?",
-      "options": ["18", "81", "27", "72"],
-      "correct": 1
-    },
-    {
-      "question": "How many states are there in India?",
-      "options": ["28", "27", "29", "30"],
-      "correct": 0
-    },
-    {
-      "question": "Which planet is known as the Red Planet?",
-      "options": ["Earth", "Mars", "Jupiter", "Venus"],
-      "correct": 1
-    },
-    {
-      "question": "What do we call a baby dog?",
-      "options": ["Kitten", "Cub", "Puppy", "Calf"],
-      "correct": 2
-    },
-    {
-      "question": "Which number comes after 999?",
-      "options": ["1000", "9999", "998", "100"],
-      "correct": 0
-    },
-    {
-      "question": "Who invented the light bulb?",
-      "options": ["Albert Einstein", "Isaac Newton", "Thomas Edison", "Alexander Bell"],
-      "correct": 2
-    },
-    {
-      "question": "Which part of the body helps you to see?",
-      "options": ["Nose", "Eyes", "Ears", "Hands"],
-      "correct": 1
-    },
-    {
-      "question": "Which festival is known as the Festival of Lights?",
-      "options": ["Holi", "Christmas", "Diwali", "Eid"],
-      "correct": 2
-    },
-    {
-      "question": "Which is the largest mammal?",
-      "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
-      "correct": 1
-    },
-    {
-      "question": "How many hours are there in a day?",
-      "options": ["12", "24", "36", "48"],
-      "correct": 1
-    },
-    {
-      "question": "What is the opposite of 'Tall'?",
-      "options": ["Long", "Short", "Big", "Thin"],
-      "correct": 1
-    },
-    {
-      "question": "Which shape has no corners?",
-      "options": ["Square", "Circle", "Rectangle", "Triangle"],
-      "correct": 1
-    },
-    {
-      "question": "In which direction does the sun rise?",
-      "options": ["North", "South", "East", "West"],
-      "correct": 2
-    },
-    {
-      "question": "What do you call the person who teaches in school?",
-      "options": ["Doctor", "Engineer", "Teacher", "Driver"],
-      "correct": 2
-    },
-    {
-      "question": "How many alphabets are there in English?",
-      "options": ["24", "25", "26", "27"],
-      "correct": 2
-    },
-    {
-      "question": "Which country is known as the Land of the Rising Sun?",
-      "options": ["India", "Japan", "China", "Thailand"],
-      "correct": 1
-    },
-    {
-      "question": "Which of these is a primary color?",
-      "options": ["Green", "Purple", "Orange", "Red"],
+      "question": "Which part of a plant is usually found below the ground?",
+      "options": ["Leaf", "Stem", "Flower", "Root"],
       "correct": 3
     },
     {
-      "question": "What do you call a house made of ice?",
-      "options": ["Cave", "Tent", "Igloo", "Hut"],
+      "question": "What is 10 multiplied by 5?",
+      "options": ["50", "15", "55", "60"],
+      "correct": 0
+    },
+    {
+      "question": "Which animal is called the 'King of the Jungle'?",
+      "options": ["Tiger", "Elephant", "Lion", "Bear"],
       "correct": 2
     },
     {
-      "question": "Which month has 28 or 29 days?",
-      "options": ["January", "February", "March", "April"],
+      "question": "Which tool helps us to see faraway objects?",
+      "options": ["Microscope", "Telescope", "Thermometer", "Compass"],
       "correct": 1
     },
     {
-      "question": "How many sides does a hexagon have?",
-      "options": ["5", "6", "7", "8"],
-      "correct": 1
-    },
-    {
-      "question": "Which bird is known for mimicking sounds?",
-      "options": ["Crow", "Pigeon", "Parrot", "Sparrow"],
+      "question": "What is the color of an emerald?",
+      "options": ["Blue", "Red", "Green", "Yellow"],
       "correct": 2
     },
     {
-      "question": "What do you use to measure time?",
-      "options": ["Thermometer", "Clock", "Scale", "Mirror"],
+      "question": "Which sense organ helps us to hear?",
+      "options": ["Nose", "Eyes", "Tongue", "Ears"],
+      "correct": 3
+    },
+    {
+      "question": "Which animal gives us wool?",
+      "options": ["Goat", "Sheep", "Cow", "Horse"],
       "correct": 1
+    },
+    {
+      "question": "Which shape has four equal sides?",
+      "options": ["Rectangle", "Square", "Triangle", "Oval"],
+      "correct": 1
+    },
+    {
+      "question": "Which festival is celebrated with colors in India?",
+      "options": ["Eid", "Christmas", "Holi", "Diwali"],
+      "correct": 2
+    },
+    {
+      "question": "What do we breathe in to stay alive?",
+      "options": ["Carbon Dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+      "correct": 1
+    },
+    {
+      "question": "How many legs does a spider have?",
+      "options": ["6", "4", "8", "10"],
+      "correct": 2
+    },
+    {
+      "question": "Which is the fastest land animal?",
+      "options": ["Horse", "Lion", "Cheetah", "Leopard"],
+      "correct": 2
+    },
+    {
+      "question": "Which planet do we live on?",
+      "options": ["Venus", "Mars", "Earth", "Jupiter"],
+      "correct": 2
+    },
+    {
+      "question": "What do cows give us?",
+      "options": ["Eggs", "Wool", "Milk", "Honey"],
+      "correct": 2
+    },
+    {
+      "question": "How many wheels does a bicycle have?",
+      "options": ["2", "3", "4", "5"],
+      "correct": 0
+    },
+    {
+      "question": "Which is the tallest animal?",
+      "options": ["Elephant", "Giraffe", "Lion", "Zebra"],
+      "correct": 1
+    },
+    {
+      "question": "What do you use to write on a blackboard?",
+      "options": ["Pen", "Pencil", "Chalk", "Brush"],
+      "correct": 2
+    },
+    {
+      "question": "Which part of the plant makes food?",
+      "options": ["Root", "Stem", "Leaf", "Flower"],
+      "correct": 2
+    },
+    {
+      "question": "How many days are there in a week?",
+      "options": ["6", "7", "8", "5"],
+      "correct": 1
+    },
+    {
+      "question": "What is the color of the sky on a clear day?",
+      "options": ["Blue", "Red", "Green", "Yellow"],
+      "correct": 0
+    },
+    {
+      "question": "Which animal lives in water and has gills?",
+      "options": ["Frog", "Fish", "Snake", "Turtle"],
+      "correct": 1
+    },
+    {
+      "question": "How many toes do we have in total?",
+      "options": ["5", "8", "10", "12"],
+      "correct": 2
+    },
+    {
+      "question": "What do we wear on our feet?",
+      "options": ["Hat", "Shoes", "Shirt", "Gloves"],
+      "correct": 1
+    },
+    {
+      "question": "Which vehicle flies in the sky?",
+      "options": ["Train", "Car", "Airplane", "Boat"],
+      "correct": 2
     }
   ]
 }
